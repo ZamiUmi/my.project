@@ -1,0 +1,380 @@
+  /*Adaptive*/
+/* Tablet */
+@media (max-width: 1124px) and (min-width: 768px){
+    #glass{
+      margin-left: -30%;
+    }
+    .genre{
+      font-size: 60%;
+      margin: -2%;
+    }
+    .names{
+      font-size: 80%;
+    }
+    .list{
+      position: reletive;
+      top: -5%;
+    }
+    .table{
+      position: absolute;
+      top: 130%;
+    }
+  }
+  
+/* mobail */
+@media (max-width: 768px) and (min-width: 320px){
+  .search{
+      display:none;
+  }
+  #glass{
+      min-width: 15%;
+      margin-left: -25%;
+    }
+    
+  .genre{
+      min-width: 80%;
+      font-size: 100%;
+      margin:5%;
+    }
+ .first-films {
+    width: 250%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 16px;
+    padding: 3 16px;
+    overflow: hidden;
+   
+  }
+  .second-films {
+    width: 250%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 16px;
+    padding: 3 16px;
+    overflow: hidden;
+  }
+  .third-films {
+    width: 250%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 16px;
+    padding: 3 16px;
+    overflow: hidden;
+  }
+  .four-films{
+    width: 250%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 16px;
+    padding: 3 16px;
+    overflow: hidden;
+  }
+  .five-films{
+    width: 250%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 16px;
+    padding: 3 16px;
+    overflow: hidden;
+  }
+  .six-films{
+    width: 250%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 16px;
+    padding: 3 16px;
+    overflow: hidden;
+  }
+  .seven-films {
+    width: 250%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 16px;
+    padding: 3 16px;
+    overflow: hidden;
+  }
+  #zero-list{
+      position: relative;
+      display: flex;
+      margin-left: 5%;
+      flex-direction: column;
+      color: gray;
+  }
+  .list{
+    margin: 20% 30%;
+    text-align: center;
+    
+  }
+  table{
+    min-width: 80%;
+  }
+  .end-color p{
+    text-align: center;
+  }
+  }
+
+  /*header*/
+  header{
+      display: flex;
+      width: 50%;
+      align-items: center;
+  }
+  #head{
+      border: 1px solid rgb(253, 253, 253);
+      background-color: white;
+      width: 100%;
+      position: sticky;
+      top: 0%;
+      z-index: 5;
+  }
+  .head{
+      position: absolute;
+      display: flex;
+      width: 30%;
+      align-items: center;
+      justify-content: space-around;
+  }
+  
+  .head{
+      margin-left: 68%;
+      float: right;
+  }
+  .search{
+      width: 30%;
+      padding: 2% 5%;
+      margin-right: 5%;
+  }
+  #glass{
+      width: 6%;
+      margin-right: 2%;
+  }
+  #lang{
+      padding: 2% 5%;
+      margin-right: 5%
+  }
+  
+  /*жанры*/
+  .genre{
+      border: 1px solid green;
+      background-color: rgb(14, 212, 14);
+      border-radius: 5px;
+      width: 10%;
+      display: inline-block;
+      text-align: center;
+      padding: 1% ;
+      margin-left: 40px;
+      margin-top: 2%;
+  }
+  .genre:hover{
+      background-color: green;
+      color: beige;
+  }
+
+  .films{
+      margin-top: 5%;
+      margin-left: 3%;
+  }
+
+
+  /* первый ряд*/
+  .first-films{
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      grid-gap: 2%;
+  }
+  
+  .first-img{
+      margin-left: 15%;
+      width: 70%;
+      height: 70%;
+      border-radius:5%;
+  }
+  .one-arrow{
+      float: left;
+      margin-left: 10%;
+      margin-top: -45px;
+      width: 2%;
+  }
+  .names{
+      margin-left: 15%;
+  }
+  
+/* романтика*/
+  .second-films{
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      grid-gap: 2%;
+  }
+  .second-img{
+      margin-left: 15%;
+      width: 70%;
+      height: 63%;
+      border-radius:5%;
+  }
+  #two-arrow{
+      float: left;
+      margin-left: 12%;
+      margin-top: -45px;
+      width: 2%;
+  }
+  
+  /* комедия*/
+  .genre-comedy{
+      margin-top: -3%;
+  
+  }
+  .third-films{
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      grid-gap: 2%;
+  }
+  .third-img{
+      margin-left: 15%;
+      width: 70%;
+      height: 70%;
+      border-radius:5%;
+  }
+  #three-arrow{
+      float: left;
+      margin-left: 10%;
+      margin-top: -45px;
+      width: 2%;
+  }
+  
+  /* хоррор*/
+  .four-films{
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      grid-gap: 2%;
+  }
+  .four-img{
+      margin-left: 15%;
+      width: 70%;
+      height: 63%;
+      border-radius:5%;
+  }
+  #four-arrow{
+      float: left;
+      margin-left: 9%;
+      margin-top: -45px;
+      width: 2%;
+  }
+  
+  /* фантастика*/
+  .top{
+      position: relative;
+      margin-top: -3%;
+  }
+  .five-films{
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      grid-gap: 2%;
+  }
+  .five-img{
+      margin-left: 15%;
+      width: 70%;
+      height: 70%;
+      border-radius:5%;
+  }
+  #five-arrow{
+      float: left;
+      margin-left: 10%;
+      margin-top: -45px;
+      width: 2%;
+  }
+  
+  /* приключения*/
+  .six-films{
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      grid-gap: 2%;
+  }
+  .six-img{
+      margin-left: 15%;
+      width: 70%;
+      height: 70%;
+      border-radius:5%;
+  }
+  #six-arrow{
+      float: left;
+      margin-left: 15%;
+      margin-top: -45px;
+      width: 2%;
+  }
+  #top{
+      margin-top: -1;
+  }
+  
+  /* детектив*/
+  .seven-films{
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      grid-gap: 2%;
+  }
+  .seven-img{
+      margin-left: 15%;
+      width: 70%;
+      height: 70%;
+      border-radius:5%;
+  }
+  #seven-arrow{
+      float: left;
+      margin-left: 11%;
+      margin-top: -45px;
+      width: 2%;
+  }
+  
+  /* конец*/
+  ul li{
+      list-style-type: none;
+  }
+  .end-color{
+      background-color: #f2f3f4;
+  }
+  #zero-list{
+      position: relative;
+      display: flex;
+      left: 10%;
+      justify-content: center;
+      color: gray;
+  }
+  .list{
+      margin-top: -6%;
+      margin-left: 3%;
+  }
+  .network td img:hover{
+      color: green;
+  }
+  #instagram{
+      width: 60%;
+  }
+  
+  #vk{
+      top: -5%;
+      width: 70%;
+  
+  }
+  #telegram{
+      width: 50%;
+  }
+  #whats-ap{
+      width: 25%;
+  }
+  #twitter{
+      width: 70%;
+  }
+  #facebook{
+      width: 80%;
+  }
+  #youtube{
+      width: 50%;
+  }
+  #internet{
+      width: 35%;
+  }
+  .table{
+      margin-top: -6%;
+      margin-left: 3%;
+      width: 20%;
+      height: 40%;
+  }
